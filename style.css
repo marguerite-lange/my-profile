@@ -1,0 +1,104 @@
+/* Colors and fonts */
+body {
+	background: rgb(200, 220, 220);
+	color: rgb(30, 30, 30);
+	font-family: Lora;
+	font-size: 18px;
+	letter-spacing: 0,2px;
+}
+
+h1, h2 {
+	font-family: Lucida Calligraphy;
+	font-weight: bold;
+}
+
+h1 {
+	color: #428C94;
+	letter-spacing: -2px;
+	font-size: 35px;
+}
+
+h2 {
+	color: #428C94;
+	letter-spacing: 0,5px;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 50, 30);
+}
+a:hover {
+	color: black;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 130px;
+}
+
+.card-white {
+	background: white;
+	padding: 60px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.btn-orange {
+	background-color: #4B9FA8;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background-color: #FFB480;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+	color: #428C94;
+}
+
+.list-inline i:hover{
+	font-size: 30px;
+	color: #FFB480;
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+#introduction p{
+	margin-bottom: 30px;
+}
